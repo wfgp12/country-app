@@ -1,3 +1,5 @@
+<shared-loading-spinner *ngIf="isLoading"></shared-loading-spinner>
+
 <div *ngIf="countries.length === 0; else table" class="alert alert-warning text-center">
   No hay países que mostrar
 </div>
